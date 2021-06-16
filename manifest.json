@@ -5,7 +5,8 @@
 	"manifest_version" : 2,
 	"background" : {
 		"scripts" : [
-			"background.js"
+			"background.js",
+			"jquery.js"
 		],
 		"persistent" : false
 	},
@@ -15,6 +16,7 @@
 				"*://www.youtube.com/*"
 			],
 			"js" : [
+				"jquery.js",
 				"content.js"
 			]
 		}
